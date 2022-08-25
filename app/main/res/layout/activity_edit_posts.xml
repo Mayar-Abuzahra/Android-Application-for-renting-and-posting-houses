@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EBD5EF"
+    tools:context=".EditPosts">
+
+    <TextView
+        android:id="@+id/EditPosts"
+        android:layout_width="336dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="40dp"
+        android:fontFamily="@font/bungee"
+        android:text="Edit Posts"
+        android:textAlignment="center"
+        android:textColor="#0C0B0B"
+        android:textSize="38sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editposts_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/editpsots_rooms"
+        app:layout_constraintStart_toStartOf="@+id/editpsots_rooms"
+        app:layout_constraintTop_toBottomOf="@+id/EditPosts" />
+
+    <EditText
+        android:id="@+id/editposts_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/editposts_city"
+        app:layout_constraintTop_toBottomOf="@+id/editposts_city" />
+
+    <EditText
+        android:id="@+id/editpsots_area"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="@+id/editposts_address"
+        app:layout_constraintTop_toBottomOf="@+id/editposts_address" />
+
+    <EditText
+        android:id="@+id/editpsots_year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="@+id/editpsots_area"
+        app:layout_constraintTop_toBottomOf="@+id/editpsots_area" />
+
+    <EditText
+        android:id="@+id/editpsots_rooms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="19dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/editpsots_price"
+        app:layout_constraintEnd_toEndOf="@+id/editpsots_price"
+        app:layout_constraintTop_toBottomOf="@+id/editpsots_year" />
+
+    <EditText
+        android:id="@+id/editpsots_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="7dp"
+        android:ems="10"
+        android:inputType="date"
+        app:layout_constraintStart_toStartOf="@+id/editpsots_description"
+        app:layout_constraintTop_toBottomOf="@+id/editpsots_garden" />
+
+    <EditText
+        android:id="@+id/editpsots_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="4dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toStartOf="@+id/EditPosts_button"
+        app:layout_constraintTop_toBottomOf="@+id/editpsots_date" />
+
+    <Button
+        android:id="@+id/EditPosts_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="1dp"
+        android:text="Edit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <CheckBox
+        android:id="@+id/editpsots_furnished"
+        android:layout_width="118dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="7dp"
+        android:text="Furnished"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/editpsots_date"
+        app:layout_constraintEnd_toStartOf="@+id/editpsots_balcony"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <CheckBox
+        android:id="@+id/editpsots_balcony"
+        android:layout_width="113dp"
+        android:layout_height="52dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="7dp"
+        android:text="Balcony"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/editpsots_date"
+        app:layout_constraintEnd_toStartOf="@+id/editpsots_garden"
+        app:layout_constraintStart_toEndOf="@+id/editpsots_furnished" />
+
+    <CheckBox
+        android:id="@+id/editpsots_garden"
+        android:layout_width="119dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="185dp"
+        android:text="Garrden"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/editpsots_balcony" />
+
+    <EditText
+        android:id="@+id/editpsots_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginEnd="69dp"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/editpsots_garden"
+        app:layout_constraintEnd_toEndOf="@+id/editpsots_garden"
+        app:layout_constraintStart_toStartOf="@+id/editpsots_furnished" />
+
+    <Button
+        android:id="@+id/editposts_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="9dp"
+        android:layout_marginBottom="1dp"
+        android:text="Delete"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
