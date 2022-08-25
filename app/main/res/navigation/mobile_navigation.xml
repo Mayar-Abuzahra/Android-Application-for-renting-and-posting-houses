@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.renthouse.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/profile"
+        android:name="com.example.renthouse.Profile"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/search"
+        android:name="com.example.renthouse.Post"
+        android:label="fragment_post"
+        tools:layout="@layout/fragment_post" />
+    <fragment
+        android:id="@+id/edit"
+        android:name="com.example.renthouse.Edit"
+        android:label="fragment_edit"
+        tools:layout="@layout/fragment_edit" />
+    <fragment
+        android:id="@+id/logout"
+        android:name="com.example.renthouse.Logout"
+        android:label="fragment_logout"
+        tools:layout="@layout/fragment_logout" />
+    <fragment
+        android:id="@+id/history"
+        android:name="com.example.renthouse.History"
+        android:label="fragment_history"
+        tools:layout="@layout/fragment_history" />
+    <fragment
+        android:id="@+id/notifications"
+        android:name="com.example.renthouse.Requests"
+        android:label="fragment_requests"
+        tools:layout="@layout/fragment_requests" />
+    <fragment
+        android:id="@+id/profile_tenant"
+        android:name="com.example.renthouse.Profile_tenant"
+        android:label="fragment_profile_tenant"
+        tools:layout="@layout/fragment_profile_tenant" />
+    <fragment
+        android:id="@+id/search_tenant"
+        android:name="com.example.renthouse.Search_tenant"
+        android:label="fragment_search_tenant"
+        tools:layout="@layout/fragment_search_tenant" />
+    <fragment
+        android:id="@+id/history_Tenant"
+        android:name="com.example.renthouse.History_Tenant"
+        android:label="fragment_history__tenant"
+        tools:layout="@layout/fragment_history__tenant" />
+    <fragment
+        android:id="@+id/logoutTenant"
+        android:name="com.example.renthouse.logoutTenant"
+        android:label="fragment_logout_tenant"
+        tools:layout="@layout/fragment_logout_tenant" />
+
+</navigation>
