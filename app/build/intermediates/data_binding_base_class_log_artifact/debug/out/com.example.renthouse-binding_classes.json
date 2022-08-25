@@ -1,0 +1,202 @@
+{
+  "mappings": {
+    "activity_edit_posts": {
+      "qualified_name": "com.example.renthouse.databinding.ActivityEditPostsBinding",
+      "module_package": "com.example.renthouse.databinding",
+      "variables": {},
+      "implementations": []
+    },
+    "activity_entery": {
+      "qualified_name": "com.example.renthouse.databinding.ActivityEnteryBinding",
+      "module_package": "com.example.renthouse.databinding",
+      "variables": {},
+      "implementations": []
+    },
+    "activity_home_agency": {
+      "qualified_name": "com.example.renthouse.databinding.ActivityHomeAgencyBinding",
+      "module_package": "com.example.renthouse.databinding",
+      "variables": {},
+      "implementations": []
+    },
+    "activity_home_tenant": {
+      "qualified_name": "com.example.renthouse.databinding.ActivityHomeTenantBinding",
+      "module_package": "com.example.renthouse.databinding",
+      "variables": {},
+      "implementations": []
+    },
+    "activity_main": {
+      "qualified_name": "com.example.renthouse.databinding.ActivityMainBinding",
+      "module_package": "com.example.renthouse.databinding",
+      "variables": {},
+      "implementations": []
+    },
+    "activity_request_details": {
+      "qualified_name": "com.example.renthouse.databinding.ActivityRequestDetailsBinding",
+      "module_package": "com.example.renthouse.databinding",
+      "variables": {},
+      "implementations": []
+    },
+    "activity_search_guest": {
+      "qualified_name": "com.example.renthouse.databinding.ActivitySearchGuestBinding",
+      "module_package": "com.example.renthouse.databinding",
+      "variables": {},
+      "implementations": []
+    },
+    "activity_search_guest_result": {
+      "qualified_name": "com.example.renthouse.databinding.ActivitySearchGuestResultBinding",
+      "module_package": "com.example.renthouse.databinding",
+      "variables": {},
+      "implementations": []
+    },
+    "activity_search_guest_specific_result": {
+      "qualified_name": "com.example.renthouse.databinding.ActivitySearchGuestSpecificResultBinding",
+      "module_package": "com.example.renthouse.databinding",
+      "variables": {},
+      "implementations": []
+    },
+    "activity_search_results": {
+      "qualified_name": "com.example.renthouse.databinding.ActivitySearchResultsBinding",
+      "module_package": "com.example.renthouse.databinding",
+      "variables": {},
+      "implementations": []
+    },
+    "activity_search_specific_result": {
+      "qualified_name": "com.example.renthouse.databinding.ActivitySearchSpecificResultBinding",
+      "module_package": "com.example.renthouse.databinding",
+      "variables": {},
+      "implementations": []
+    },
+    "activity_sign_up_agency": {
+      "qualified_name": "com.example.renthouse.databinding.ActivitySignUpAgencyBinding",
+      "module_package": "com.example.renthouse.databinding",
+      "variables": {},
+      "implementations": []
+    },
+    "activity_sign_up_tenant": {
+      "qualified_name": "com.example.renthouse.databinding.ActivitySignUpTenantBinding",
+      "module_package": "com.example.renthouse.databinding",
+      "variables": {},
+      "implementations": []
+    },
+    "activity_user_type": {
+      "qualified_name": "com.example.renthouse.databinding.ActivityUserTypeBinding",
+      "module_package": "com.example.renthouse.databinding",
+      "variables": {},
+      "implementations": []
+    },
+    "app_bar_home_agency": {
+      "qualified_name": "com.example.renthouse.databinding.AppBarHomeAgencyBinding",
+      "module_package": "com.example.renthouse.databinding",
+      "variables": {},
+      "implementations": []
+    },
+    "app_bar_home_tenant": {
+      "qualified_name": "com.example.renthouse.databinding.AppBarHomeTenantBinding",
+      "module_package": "com.example.renthouse.databinding",
+      "variables": {},
+      "implementations": []
+    },
+    "content_home_agency": {
+      "qualified_name": "com.example.renthouse.databinding.ContentHomeAgencyBinding",
+      "module_package": "com.example.renthouse.databinding",
+      "variables": {},
+      "implementations": []
+    },
+    "content_home_tenant": {
+      "qualified_name": "com.example.renthouse.databinding.ContentHomeTenantBinding",
+      "module_package": "com.example.renthouse.databinding",
+      "variables": {},
+      "implementations": []
+    },
+    "fragment_edit": {
+      "qualified_name": "com.example.renthouse.databinding.FragmentEditBinding",
+      "module_package": "com.example.renthouse.databinding",
+      "variables": {},
+      "implementations": []
+    },
+    "fragment_history": {
+      "qualified_name": "com.example.renthouse.databinding.FragmentHistoryBinding",
+      "module_package": "com.example.renthouse.databinding",
+      "variables": {},
+      "implementations": []
+    },
+    "fragment_history__tenant": {
+      "qualified_name": "com.example.renthouse.databinding.FragmentHistoryTenantBinding",
+      "module_package": "com.example.renthouse.databinding",
+      "variables": {},
+      "implementations": []
+    },
+    "fragment_home": {
+      "qualified_name": "com.example.renthouse.databinding.FragmentHomeBinding",
+      "module_package": "com.example.renthouse.databinding",
+      "variables": {},
+      "implementations": []
+    },
+    "fragment_hometenant": {
+      "qualified_name": "com.example.renthouse.databinding.FragmentHometenantBinding",
+      "module_package": "com.example.renthouse.databinding",
+      "variables": {},
+      "implementations": []
+    },
+    "fragment_logout_tenant": {
+      "qualified_name": "com.example.renthouse.databinding.FragmentLogoutTenantBinding",
+      "module_package": "com.example.renthouse.databinding",
+      "variables": {},
+      "implementations": []
+    },
+    "fragment_post": {
+      "qualified_name": "com.example.renthouse.databinding.FragmentPostBinding",
+      "module_package": "com.example.renthouse.databinding",
+      "variables": {},
+      "implementations": []
+    },
+    "fragment_profile": {
+      "qualified_name": "com.example.renthouse.databinding.FragmentProfileBinding",
+      "module_package": "com.example.renthouse.databinding",
+      "variables": {},
+      "implementations": []
+    },
+    "fragment_profile_tenant": {
+      "qualified_name": "com.example.renthouse.databinding.FragmentProfileTenantBinding",
+      "module_package": "com.example.renthouse.databinding",
+      "variables": {},
+      "implementations": []
+    },
+    "fragment_requests": {
+      "qualified_name": "com.example.renthouse.databinding.FragmentRequestsBinding",
+      "module_package": "com.example.renthouse.databinding",
+      "variables": {},
+      "implementations": []
+    },
+    "fragment_search_tenant": {
+      "qualified_name": "com.example.renthouse.databinding.FragmentSearchTenantBinding",
+      "module_package": "com.example.renthouse.databinding",
+      "variables": {},
+      "implementations": []
+    },
+    "nav_header_home_agency": {
+      "qualified_name": "com.example.renthouse.databinding.NavHeaderHomeAgencyBinding",
+      "module_package": "com.example.renthouse.databinding",
+      "variables": {},
+      "implementations": []
+    },
+    "nav_header_home_tenant": {
+      "qualified_name": "com.example.renthouse.databinding.NavHeaderHomeTenantBinding",
+      "module_package": "com.example.renthouse.databinding",
+      "variables": {},
+      "implementations": []
+    },
+    "property": {
+      "qualified_name": "com.example.renthouse.databinding.PropertyBinding",
+      "module_package": "com.example.renthouse.databinding",
+      "variables": {},
+      "implementations": []
+    },
+    "activity_history_tenant_request": {
+      "qualified_name": "com.example.renthouse.databinding.ActivityHistoryTenantRequestBinding",
+      "module_package": "com.example.renthouse.databinding",
+      "variables": {},
+      "implementations": []
+    }
+  }
+}
